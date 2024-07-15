@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Banner Section -->
+    <section class="banner-section py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h6 class="font-weight-bold text-danger">AWARD WINNING</h6>
+                    <h2 class="font-weight-bold">DIGITAL MARKETING AGENCY</h2>
+                    <p class="lead">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus...</p>
+                    <a href="#" class="btn btn-danger contact-us-btn">CONTACT US</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images\hero.png" class="img-fluid" alt="Marketing Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Popup -->
+<div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactUsModalLabel" style="color: black; font-weight: normal;">Talk to us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm" action="https://getform.io/f/pbygzezb" method="POST">
+                    <div class="form-group">
+                        <label for="email" class="form-label">Work email*</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder=" " required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName" class="form-label">First name*</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder=" " required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName" class="form-label">Last name*</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder=" " required>
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="consent" required>
+                        <label class="form-check-label" for="consent">I agree to receive terms and conditions, and provide consent to send me communication.</label>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Contact Us</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- What We Do Section -->
+<section class="what-we-do-section py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h6 class="text-danger feedback1">WHAT WE DO</h6>
+                <h2 class="font-weight-bold">SERVICES PROVIDE FOR YOU</h2>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed lacus nec risus finibus feugiat at fermentum nibh ac at purus...</p>
+            </div>
+        </div>
+        <div class="row text-center mt-4">
+            <div class="slider-container">
+                
+                <div class="service-card" id="service-1">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\1.png" class="img-fluid" alt="Service 1">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 1</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\2.png" class="img-fluid" alt="Service 2">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\2.png" class="img-fluid" alt="Service 3">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\2.png" class="img-fluid" alt="Service 4">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\2.png" class="img-fluid" alt="Service 5">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\1.png" class="img-fluid" alt="Service 6">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\1.png" class="img-fluid" alt="Service 7">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\1.png" class="img-fluid" alt="Service 8">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" id="service-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images\2.png" class="img-fluid" alt="Service 9">
+                        </div>
+                        <div class="card-back">
+                            <div class="service-details">
+                                <h5>Service 2</h5>
+                                <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh...</p>
+                                <button href="#" class="btn btn1 read-more-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <div class="slider-dots">
+                    <span class="dot active" data-service="0"></span>
+                    <span class="dot" data-service="1"></span>
+                    <span class="dot" data-service="2"></span>
+                    <span class="dot" data-service="3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Why choose us Section -->
+
+<section class="why-choose-us-section py-5 ">
+    <div class="container">
+        <h6 class="text-center feedback1">WHY CHOOSE US</h6>
+        <h2 class="text-center font-weight-bold">WHY WE ARE BEST</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <img src="images\1 (1).svg" class="img-fluid mb-3">
+                <h5>Clarified Vision & Target</h5>
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\2 (1).svg" class="img-fluid mb-4">
+                <h5>High Performance</h5>
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\3 (1).svg" class="img-fluid mb-3">
+                <h5>Maintain Security</h5>
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images\4 (1).svg" class="img-fluid mb-3">
+                <h5>Better Strategy & Quality</h5>
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Project Section -->
+<section class="projects-section py-5">
+    <div class="container">
+        <h6 class="text-center feedback1 mb-4">OUR PROJECT</h6>
+        <h2 class="text-center font-weight-bold mb-4">WHY WE ARE BEST</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="project-image-container">
+                    <img src="images\image.png" id="project-image" class="img-fluid" alt="Project Image">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-info bg-light p-4 text-black active" data-image="images\image.png">
+                    <h5>Better Strategy & Quality</h5>
+                    <p>Set to launch on the manufacturer's new A320neo aircraft in...</p>
+                </div>
+                <div class="project-info bg-light p-4 text-black" data-image="">
+                    <h5>Genderless Kei - Japan's Hot</h5>
+                    <p>Set to launch on the manufacturer's new A320neo aircraft in...</p>
+                </div>
+                <div class="project-info bg-light p-4 text-black" data-image="images\image.png">
+                    <h5>Innovative Design</h5>
+                    <p>Set to launch on the manufacturer's new A320neo aircraft in...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Company Growth Section -->
+<section class="company-growth-section py-5 bg-light">
+    <div class="container">
+        <h6 class="text-center feedback1">EXPERT GROWTH</h6>
+        <h2 class="text-center font-weight-bold">OUR COMPANY GROWTH</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <div class="growth-card">
+                    <div class="bg-white p-4">
+                        <img src="images\heart (2).svg" class="img-fluid image-small">
+                        <h3>199+</h3>
+                        <p>Satisfied Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-card">
+                    <div class="bg-white p-4">
+                        <img src="images\clock (3).svg" class="img-fluid image-small">
+                        <h3>1591+</h3>
+                        <p>Days of Operation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-card">
+                    <div class="bg-white p-4">
+                        <img src="images\Path 4402.svg" class="img-fluid image-small">
+                        <h3>283+</h3>
+                        <p>Complete Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-card">
+                    <div class="bg-white p-4">
+                         <img src="images/Path 4406.svg" class="img-fluid image-small">
+                        <h3>75+</h3>
+                        <p>Win Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Client Feedback Section -->
+    <section class="client-feedback-section py-5 bg-white">
+    <div class="container">
+        <h6 class="text-center feedback1">CLIENT'S FEEDBACK</h6>
+        <h2 class="text-center font-weight-bold">PEOPLE SAY ABOUT US!</h2>
+        <div class="text-center mt-4 feedback">
+            <p><img src="images\Quotemarks-left.svg" class="quote" alt="">  Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below...</p>
+            <p><strong>JANNAT TUMPA</strong> - COO, AMERIMAR ENTERPRISES, INC.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer-section py-4 bg-danger text-white text-center">
+       <div class="container" style="height: 150px;">
+    <img src="images\Group 500.png" alt="Logo" class="img-fluid centered-and-resized">
+</div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
